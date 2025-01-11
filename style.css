@@ -14,8 +14,8 @@ section {
 }
 #btn:hover {
   cursor: pointer;
-  background-color: #063720;
-  transition: 0.7s;
+  background-color: #17b46b;
+  transition: 0.3s;
 }
 
 /* Top Banner Section */
@@ -43,32 +43,156 @@ section {
 
 /* Banner Section */
 .banner {
-    display: flex;
-    background-color: #c6e4d6;
-    border-radius: 24px;
-    gap: 64px;
-    padding: 100px 60px;
-  }
-  .banner-content {
-    margin-top: -40px;
-  }
-  .banner-content h6 {
-    font-size: 24px;
-    font-weight: 500;
-    color: rgba(14, 14, 14, 0.5);
-    margin-bottom: -28px;
-  }
-  .banner-content h1 {
-    font-size: 56px;
-    font-weight: bold;
-    color: #0e0e0e;
-  }
-  .banner-content button {
-    background-color: #006a50;
-    border-radius: 8px;
-    padding: 17px 34px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #ffffff;
-    border: none;
-  }
+  display: flex;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  gap: 64px;
+  padding: 100px 60px;
+}
+.banner-content {
+  margin-top: -50px;
+}
+.banner-content h6 {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.5);
+  margin-bottom: -28px;
+}
+.banner-content h1 {
+  font-size: 56px;
+  font-weight: bold;
+  color: #0e0e0e;
+}
+.banner-content button {
+  background-color: #006a50;
+  border-radius: 8px;
+  padding: 17px 34px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+}
+
+/* Pillars Section */
+.pillars h2 {
+  color: #0e0e0e;
+  font-size: 40px;
+  margin-bottom: 32px;
+  font-weight: bold;
+}
+.pillars-container {
+  display: flex;
+  gap: 24px;
+}
+.pillars .pillar {
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  max-width: 302px;
+}
+.pillars .pillar h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.pillars .pillar p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+/* Vision Section */
+.vision h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-bottom: 24px;
+}
+.vision .bdvision {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.vision .card-container {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.vision .card-container .card {
+  padding: 32px;
+  border-radius: 16px;
+  min-width: 410px;
+}
+.vision .card-container .card h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.vision .card-container .card p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  max-width: 346px;
+  margin-bottom: 24px;
+}
+.vision .card-container .card button {
+  border-radius: 8px;
+  padding: 11px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+.vision #btn-1 {
+  background-color: #5490f5;
+}
+.vision #btn-1:hover {
+  cursor: pointer;
+  background-color: #1458ce;
+  transition: 0.3s;
+}
+.vision #btn-2 {
+  background-color: #09a15c;
+}
+.vision #btn-2:hover {
+  cursor: pointer;
+  background-color: #04743f;
+  transition: 0.3s;
+}
+.vision #btn-3 {
+  background-color: #ffc239;
+}
+.vision #btn-3:hover {
+  cursor: pointer;
+  background-color: #a77502;
+  transition: 0.3s;
+}
+.vision .quote {
+  padding: 48px 24px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+.vision .quote img {
+  position: absolute;
+  top: 14%;
+}
+.vision .quote p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.vision .quote h6 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 12px;
+  margin-bottom: -12px;
+}
+
