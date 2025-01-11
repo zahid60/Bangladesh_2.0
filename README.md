@@ -25,7 +25,7 @@ Bangladesh 2.0 is an initiative inspired by the Bangladesh July Movement. It env
 
 - **Frontend**: HTML, CSS
 
-1. Clone the repository:
+## Clone the repository:
    ```bash
    git clone https://github.com/zahid60/Bangladesh_2.0.git
    cd Bangladesh_2.0
