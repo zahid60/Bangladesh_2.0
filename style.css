@@ -238,7 +238,7 @@ td {
   color: #0e0e0e;
   border-radius: 4px;
   appearance: none;
-  background-image: url('../assets/dropdownicon.png');
+  background-image: url('assets/dropdownicon.png');
   background-repeat: no-repeat;
   background-position: right 1rem center;
   background-size: 12%;
